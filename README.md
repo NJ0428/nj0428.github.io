@@ -1,13 +1,13 @@
-# [Minimal Mistakes Jekyll theme](https://mmistakes.github.io/minimal-mistakes/)
+# [Jekyll 기반 블로그](https://mmistakes.github.io/minimal-mistakes/)
 
 [![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/mmistakes/minimal-mistakes/master/LICENSE)
 [![Jekyll](https://img.shields.io/badge/jekyll-%3E%3D%203.7-blue.svg)](https://jekyllrb.com/)
 
-Minimal Mistakes is a flexible two-column Jekyll theme, perfect for building personal sites, blogs, and portfolios. As the name implies, styling is purposely minimalistic to be enhanced and customized by you :smile:.
+Minimal Mistakes는 개인 사이트, 블로그, 포트폴리오 제작에 적합한 유연한 2열 Jekyll 테마입니다. 이름에서 알 수 있듯이, 스타일링은 의도적으로 미니멀하게 설계되어 사용자가 직접 수정하고 맞춤 설정할 수 있습니다 :smile:.
 
-:sparkles: See what's new in the [CHANGELOG](CHANGELOG.md).
+:sparkles:새로운 소식을 확인하세요 [CHANGELOG](CHANGELOG.md).
 
-**Note:** The theme uses the [jekyll-include-cache](https://github.com/benbalter/jekyll-include-cache) plugin which will need to be installed in your `Gemfile` and must be retained in the `plugins` array of `_config.yml`. Otherwise you'll encounter `Unknown tag 'include_cached'` errors at build.
+**참고:** 테마는 [jekyll-include-cache](https://github.com/benbalter/jekyll-include-cache) 플러그인을 사용합니다. 이 플러그인은 `Gemfile`에 설치해야 하며, `_config.yml`의 `plugins` 배열에 포함되어야 합니다. 그렇지 않으면 빌드 시 `알 수 없는 태그 'include_cached'` 오류가 발생합니다.
 
 [![Minimal Mistakes live preview][2]][1]
 
@@ -16,22 +16,22 @@ Minimal Mistakes is a flexible two-column Jekyll theme, perfect for building per
 
 ![layout examples](screenshot-layouts.png)
 
-## Notable features
+## 주목할만한 특징
 
-- Bundled as a "theme gem" for easier installation/upgrading.
-- Compatible with GitHub Pages.
-- Support for Jekyll's built-in Sass/SCSS preprocessor.
-- Nine different skins (color variations).
-- Several responsive layout options (single, archive index, search, splash, and paginated home page).
-- Optimized for search engines with support for [Twitter Cards](https://dev.twitter.com/cards/overview) and [Open Graph](http://ogp.me/) data.
-- Optional [header images](https://mmistakes.github.io/minimal-mistakes/docs/layouts/#headers), [custom sidebars](https://mmistakes.github.io/minimal-mistakes/docs/layouts/#sidebars), [table of contents](https://mmistakes.github.io/minimal-mistakes/docs/helpers/#table-of-contents), [galleries](https://mmistakes.github.io/minimal-mistakes/docs/helpers/#gallery), related posts, [breadcrumb links](https://mmistakes.github.io/minimal-mistakes/docs/configuration/#breadcrumb-navigation-beta), [navigation lists](https://mmistakes.github.io/minimal-mistakes/docs/helpers/#navigation-list), and more.
-- Commenting support (powered by [Disqus](https://disqus.com/), [Facebook](https://developers.facebook.com/docs/plugins/comments), Google+, [Discourse](https://www.discourse.org/), static-based via [Staticman](https://staticman.net/), [utterances](https://utteranc.es/), and [giscus](https://giscus.app/)).
-- [Google Analytics](https://www.google.com/analytics/) support.
-- UI localized text in English (default), Arabic (عربي), Brazilian Portuguese (Português brasileiro), Bulgarian, Catalan, Chinese, Czech, Danish, Dutch, Finnish, French (Français), German (Deutsch), Greek, Hebrew, Hindi (हिंदी), Hungarian, Indonesian, Irish (Gaeilge), Italian (Italiano), Japanese, Kiswahili, Korean, Malayalam, Myanmar (Burmese), Nepali (Nepalese), Norwegian (Norsk), Persian (فارسی), Polish, Punjabi (ਪੰਜਾਬੀ), Romanian, Russian, Slovak, Spanish (Español), Swedish, Thai, Turkish (Türkçe), Ukrainian (Українська) and Vietnamese.
+- 설치/업그레이드를 더욱 간편하게 하기 위해 "테마 젬"으로 번들로 제공됩니다.
+- GitHub Pages와 호환됩니다.
+- Jekyll 내장 Sass/SCSS 전처리기를 지원합니다.
+- 9가지 스킨(색상 변형)을 제공합니다.
+- 다양한 반응형 레이아웃 옵션(단일, 아카이브 인덱스, 검색, 스플래시, 페이지 매김 홈페이지)을 제공합니다.
+- [Twitter Cards](https://dev.twitter.com/cards/overview) 및 [Open Graph](http://ogp.me/) 데이터를 지원하여 검색 엔진에 최적화되었습니다.
+- 선택 사항 [헤더 이미지](https://mmistakes.github.io/minimal-mistakes/docs/layouts/#headers), [사용자 정의 사이드바](https://mmistakes.github.io/minimal-mistakes/docs/layouts/#sidebars), [목차](https://mmistakes.github.io/minimal-mistakes/docs/helpers/#table-of-contents), [갤러리](https://mmistakes.github.io/minimal-mistakes/docs/helpers/#gallery), 관련 게시물, [브레드크럼 링크](https://mmistakes.github.io/minimal-mistakes/docs/configuration/#breadcrumb-navigation-beta), [탐색 목록](https://mmistakes.github.io/minimal-mistakes/docs/helpers/#navigation-list) 등 다양한 기능을 제공합니다.
+- 댓글 지원([Disqus](https://disqus.com/), [Facebook](https://developers.facebook.com/docs/plugins/comments), Google+, [Discourse](https://www.discourse.org/), [Staticman](https://staticman.net/), [utterances](https://utteranc.es/), [giscus](https://giscus.app/)를 통한 정적 기반).
+- [Google 애널리틱스](https://www.google.com/analytics/) 지원
+- UI 현지화된 텍스트는 영어(기본값), 아랍어(عربي), 브라질 포르투갈어(Português brasileiro), 불가리아어, 카탈로니아어, 중국어, 체코어, 덴마크어, 네덜란드어, 핀란드어, 프랑스어(Français), 독일어(Deutsch), 그리스어, 히브리어, 힌디어(हिंदी), 헝가리어, 인도네시아어, 아일랜드어(Gaeilge), 이탈리아어(Italiano), 일본어, 스와힐리어, 한국어, 말라얄람어, 미얀마어(Burmese), 네팔어(Nepalese), 노르웨이어(Norsk), 페르시아어(فارسی), 폴란드어, 펀자브어(ਪੰਜਾਬੀ), 루마니아어, 러시아어, 슬로바키아어, 스페인어(Español), 스웨덴어, 태국어, 터키어(Türkçe), 우크라이나어(Українська), 베트남어입니다.
 
 ## Skins (color variations)
 
-This theme comes in nine different skins (in addition to the default one).
+이 테마는 기본 스킨 외에도 9가지의 다양한 스킨으로 제공됩니다.
 
 | `air` | `contrast` | `dark` |
 | --- | --- | --- |
@@ -47,137 +47,137 @@ This theme comes in nine different skins (in addition to the default one).
 
 ## Demo pages
 
-| Name                                        | Description                                           |
+| 이름                                        | 설명                                           |
 | ------------------------------------------- | ----------------------------------------------------- |
-| [Post with Header Image][header-image-post] | A post with a large header image. |
-| [HTML Tags and Formatting Post][html-tags-post] | A variety of common markup showing how the theme styles them. |
-| [Syntax Highlighting Post][syntax-post] | Post displaying highlighted code. |
-| [Post with a Gallery][gallery-post] | A post showing several images wrapped in `<figure>` elements. |
-| [Sample Collection Page][sample-collection] | Single page from a collection. |
-| [Categories Archive][categories-archive] | Posts grouped by category. |
-| [Tags Archive][tags-archive] | Posts grouped by tag. |
+| [헤더 이미지가 있는 게시물][header-image-post] | 큰 헤더 이미지가 있는 게시물입니다. |
+| [HTML 태그 및 서식 게시물][html-tags-post] | 테마에서 스타일을 지정하는 다양한 일반적인 마크업입니다. |
+| [구문 강조 게시물][syntax-post] | 강조 표시된 코드를 표시하는 게시물입니다. |
+| [갤러리가 있는 게시물][gallery-post] | `<figure>` 요소로 둘러싸인 여러 이미지를 보여주는 게시물입니다. |
+| [샘플 컬렉션 페이지][sample-collection] | 컬렉션의 단일 페이지입니다. |
+| [카테고리 아카이브][categories-archive] | 카테고리별로 그룹화된 게시물입니다. |
+| [태그 아카이브][tags-archive] | 태그별로 그룹화된 게시물입니다. |
 
-Additional sample posts are available under [posts archive][year-archive] on the demo site. Source files for these (and the entire demo site) can be found in [`/docs`](docs).
+추가 샘플 게시물은 데모 사이트의 [게시물 보관소][연도 보관소]에서 확인할 수 있습니다. 이 게시물(및 전체 데모 사이트)의 소스 파일은 [`/docs`](docs)에서 확인할 수 있습니다.
 
-[header-image-post]: https://mmistakes.github.io/minimal-mistakes/layout-header-image-text-readability/
-[gallery-post]: https://mmistakes.github.io/minimal-mistakes/post%20formats/post-gallery/
-[html-tags-post]: https://mmistakes.github.io/minimal-mistakes/markup/markup-html-tags-and-formatting/
-[syntax-post]: https://mmistakes.github.io/minimal-mistakes/markup-syntax-highlighting/
-[sample-collection]: https://mmistakes.github.io/minimal-mistakes/recipes/chocolate-chip-cookies/
-[categories-archive]: https://mmistakes.github.io/minimal-mistakes/categories/
-[tags-archive]: https://mmistakes.github.io/minimal-mistakes/tags/
-[year-archive]: https://mmistakes.github.io/minimal-mistakes/year-archive/
+[헤더-이미지-게시물]: https://mmistakes.github.io/minimal-mistakes/layout-header-image-text-readability/
+[갤러리-게시물]: https://mmistakes.github.io/minimal-mistakes/post%20formats/post-gallery/
+[html-태그-게시물]: https://mmistakes.github.io/minimal-mistakes/markup/markup-html-tags-and-formatting/
+[구문-게시물]: https://mmistakes.github.io/minimal-mistakes/markup-syntax-highlighting/
+[샘플-컬렉션]: https://mmistakes.github.io/minimal-mistakes/recipes/chocolate-chip-cookies/
+[카테고리-아카이브]: https://mmistakes.github.io/minimal-mistakes/categories/
+[태그 아카이브]: https://mmistakes.github.io/minimal-mistakes/tags/
+[년도 아카이브]: https://mmistakes.github.io/minimal-mistakes/year-archive/
 
-## Installation
+## 설치
 
-There are three ways to install: as a [gem-based theme](https://jekyllrb.com/docs/themes/#understanding-gem-based-themes), as a [remote theme](https://blog.github.com/2017-11-29-use-any-theme-with-github-pages/) (GitHub Pages compatible), or forking/directly copying all of the theme files into your project.
+설치 방법은 세 가지가 있습니다. [젬 기반 테마](https://jekyllrb.com/docs/themes/#understanding-gem-based-themes), [원격 테마](https://blog.github.com/2017-11-29-use-any-theme-with-github-pages/)(GitHub Pages 호환), 또는 모든 테마 파일을 프로젝트에 포크하거나 직접 복사하는 것입니다.
 
-### Gem-based method
+### Gem 기반 방식
 
-With Gem-based themes, directories such as the `assets`, `_layouts`, `_includes`, and `_sass` are stored in the theme’s gem, hidden from your immediate view. Yet all of the necessary directories will be read and processed during Jekyll’s build process.
+Gem 기반 테마를 사용하면 `assets`, `_layouts`, `_includes`, `_sass`와 같은 디렉터리가 테마의 gem에 저장되어 사용자에게는 보이지 않습니다. 하지만 필요한 모든 디렉터리는 Jekyll 빌드 과정에서 읽고 처리됩니다.
 
-This allows for easier installation and updating as you don't have to manage any of the theme files. To install:
+이렇게 하면 테마 파일을 관리할 필요가 없으므로 설치 및 업데이트가 더 쉬워집니다. 설치 방법:
 
-1. Add the following to your `Gemfile`:
+1. `Gemfile`에 다음을 추가합니다.
 
-   ```ruby
-   gem "minimal-mistakes-jekyll"
-   ```
+```ruby
+gem "minimal-mistakes-jekyll"
+```
 
-2. Fetch and update bundled gems by running the following [Bundler](http://bundler.io/) command:
+2. 다음 [Bundler](http://bundler.io/) 명령을 실행하여 번들된 gem을 가져오고 업데이트합니다.
 
-   ```bash
-   bundle
-   ```
+```bash
+bundle
+```
 
-3. Set the `theme` in your project's Jekyll `_config.yml` file:
+3. 프로젝트의 Jekyll `_config.yml` 파일에 `theme`을 설정합니다.
 
-   ```yaml
-   theme: minimal-mistakes-jekyll
-   ```
+```yaml
+theme: minimal-mistakes-jekyll
+```
 
-To update the theme run `bundle update`.
+테마를 업데이트하려면 `bundle update`를 실행합니다.
 
-### Remote theme method
+### 원격 테마 메서드
 
-Remote themes are similar to Gem-based themes, but do not require `Gemfile` changes or whitelisting making them ideal for sites hosted with GitHub Pages.
+원격 테마는 Gem 기반 테마와 유사하지만 `Gemfile`을 변경하거나 허용 목록에 추가할 필요가 없으므로 GitHub Pages로 호스팅되는 사이트에 적합합니다.
 
-To install:
+설치 방법:
 
-1. Create/replace the contents of your `Gemfile` with the following:
+1. `Gemfile`의 내용을 다음과 같이 생성하거나 바꿉니다.
 
-   ```ruby
-   source "https://rubygems.org"
+```ruby
+source "https://rubygems.org"
 
-   gem "github-pages", group: :jekyll_plugins
-   gem "jekyll-include-cache", group: :jekyll_plugins
-   ```
+gem "github-pages", group: :jekyll_plugins
+gem "jekyll-include-cache", group: :jekyll_plugins
+```
 
-2. Add `jekyll-include-cache` to the `plugins` array of your `_config.yml`.
+2. `_config.yml`의 `plugins` 배열에 `jekyll-include-cache`를 추가합니다.
 
-3. Fetch and update bundled gems by running the following [Bundler](https://bundler.io/) command:
+3. 다음 [Bundler](https://bundler.io/) 명령을 실행하여 번들된 gem을 가져오고 업데이트합니다.
 
-   ```bash
-   bundle
-   ```
+```bash
+bundle
+```
 
-4. Add `remote_theme: "mmistakes/minimal-mistakes@4.27.1"` to your `_config.yml` file. Remove any other `theme:` or `remote_theme:` entry.
+4. `_config.yml` 파일에 `remote_theme: "mmistakes/minimal-mistakes@4.27.1"`을 추가합니다. 다른 `theme:` 또는 `remote_theme:` 항목을 제거합니다.
 
 <!--
-  Dev note: The version number is currently hard-coded in these files:
+개발자 참고: 버전 번호는 현재 다음 파일에 하드코딩되어 있습니다.
 
-    - package.json
-    - README.md (this file)
-    - docs/_data/theme.yml
-    - docs/_pages/home.md (in Front Matter "excerpt")
+- package.json
+- README.md (이 파일)
+- docs/_data/theme.yml
+- docs/_pages/home.md (Front Matter "발췌")
 
-  `package.json` holds the authoritative version number, and the others can be updated with `bundle exec rake version`.
+`package.json`은 신뢰할 수 있는 버전 번호를 저장하며, 다른 버전 번호는 `bundle exec rake version` 명령어를 사용하여 업데이트할 수 있습니다.
 
-  The following files should also be regenerated:
+다음 파일도 다시 생성해야 합니다.
 
-    - _includes/copyright.html, _includes/copyright.js, _sass/minimal-mistakes/_copyright.scss
-      (Run `bundle exec rake clean` then `bundle exec rake copyright` - all three references `package.json`)
-    - assets/js/main.min.js (Run `bundle exec rake js`, references `_includes/copyright.js`)
+- _includes/copyright.html, _includes/copyright.js, _sass/minimal-mistakes/_copyright.scss
+(`bundle exec rake clean`을 실행한 후 `bundle exec rake copyright`을 실행 - 세 파일 모두 `package.json`을 참조합니다.)
+- assets/js/main.min.js (`bundle exec rake js`를 실행하고 `_includes/copyright.js`를 참조합니다.)
 
-  *Tip*: The default Rake task will update all of the above files at once.
+*팁*: 기본 Rake 작업은 위의 모든 파일을 한 번에 업데이트합니다.
 
-  Additionally, the license year is hard-coded in these files and are NOT covered by a Rake task:
+또한, 라이선스 연도는 다음 파일에 하드코딩되어 있으며 Rake 작업에는 포함되지 않습니다.
 
-    - README.md (this file, near the end)
-    - LICENSE
+- README.md (이 파일, 마지막 부분)
+- LICENSE
 -->
 
-**Looking for an example?** Use the [Minimal Mistakes remote theme starter](https://github.com/mmistakes/mm-github-pages-starter/generate) for the quickest method of getting a GitHub Pages hosted site up and running. Generate a new repository from the starter, replace sample content with your own, and configure as needed.
+**예제를 찾고 계신가요?** GitHub Pages 호스팅 사이트를 구축하고 실행하는 가장 빠른 방법은 [Minimal Mistakes 원격 테마 스타터](https://github.com/mmistakes/mm-github-pages-starter/generate)를 사용하는 것입니다. 스타터에서 새 저장소를 생성하고, 샘플 콘텐츠를 직접 작성한 콘텐츠로 대체한 후 필요에 따라 구성합니다.
 
-## Usage
+## 사용법
 
-For detailed instructions on how to configure, customize, add/migrate content, and more read the [theme's documentation](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/).
+구성, 사용자 지정, 콘텐츠 추가/마이그레이션 등에 대한 자세한 내용은 [테마 설명서](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/)를 참조하세요.
 
-## Contributing
+## 기여
 
-Found a typo in the documentation or interested in [fixing a bug](https://github.com/mmistakes/minimal-mistakes/issues)? Then by all means [submit an issue](https://github.com/mmistakes/minimal-mistakes/issues/new) or [pull request](https://help.github.com/articles/using-pull-requests/). If this is your first pull request, it may be helpful to read up on the [GitHub Flow](https://guides.github.com/introduction/flow/) first.
+문서에서 오타를 발견하셨거나 [버그 수정](https://github.com/mmistakes/minimal-mistakes/issues)에 관심이 있으신가요? 그렇다면 [이슈 제출](https://github.com/mmistakes/minimal-mistakes/issues/new) 또는 [풀 리퀘스트](https://help.github.com/articles/using-pull-requests/)를 해주세요. 풀 리퀘스트를 처음 하시는 경우, [GitHub Flow](https://guides.github.com/introduction/flow/)를 먼저 읽어보시는 것이 도움이 될 수 있습니다.
 
-For help with using the theme or general Jekyll support questions, please use the [Jekyll Talk forums](https://talk.jekyllrb.com/).
+테마 사용에 대한 도움이나 일반적인 Jekyll 지원 관련 질문은 [Jekyll Talk 포럼](https://talk.jekyllrb.com/)을 이용해 주세요.
 
-### Pull Requests
+### 풀 리퀘스트
 
-When submitting a pull request:
+풀 리퀘스트를 제출할 때는 다음을 수행하세요.
 
-1. Clone the repo.
-2. Create a branch off of `master` and give it a meaningful name (e.g. `my-awesome-new-feature`).
-3. Open a pull request on GitHub and describe the feature or fix.
+1. 저장소를 복제합니다.
+2. `master`에서 브랜치를 생성하고 의미 있는 이름(예: `my-awesome-new-feature`)을 지정합니다.
+3. GitHub에서 풀 리퀘스트를 열고 기능이나 수정 사항을 설명합니다.
 
-Theme documentation and demo pages can be found in the [`/docs`](docs) if submitting improvements, typo corrections, etc.
+개선 사항, 오타 수정 등을 제출하는 경우 테마 문서와 데모 페이지는 [`/docs`](docs)에서 확인할 수 있습니다.
 
-## Development
+## 개발
 
-To set up your environment to develop this theme, run `bundle install`.
+이 테마를 개발할 환경을 설정하려면 `bundle install`을 실행하세요.
 
-To test the theme, run `bundle exec rake preview` and open your browser at `http://localhost:4000/test/`. This starts a Jekyll server using content in the `test/` directory. As modifications are made to the theme and test site, it will regenerate and you should see the changes in the browser after a refresh.
+테마를 테스트하려면 `bundle exec rake preview`를 실행하고 브라우저에서 `http://localhost:4000/test/`를 엽니다. 이렇게 하면 `test/` 디렉터리의 콘텐츠를 사용하는 Jekyll 서버가 시작됩니다. 테마와 테스트 사이트가 수정되면 서버가 다시 생성되고, 새로 고침 후 브라우저에서 변경 사항을 확인할 수 있습니다.
 
-## Credits
+## 크레딧
 
-### Creator
+### 제작자
 
 **Michael Rose**
 
@@ -208,27 +208,16 @@ To test the theme, run `bundle exec rake preview` and open your browser at `http
 
 ## License
 
-The MIT License (MIT)
+MIT 라이선스(MIT)
 
-Copyright (c) 2013-2024 Michael Rose and contributors
+저작권(c) 2013-2024 Michael Rose 및 기여자
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+본 소프트웨어 및 관련 문서 파일(이하 "소프트웨어")의 사본을 취득한 모든 사람에게 소프트웨어를 제한 없이 사용할 수 있는 권한을 무상으로 부여합니다. 여기에는 소프트웨어 사본을 사용, 복사, 수정, 병합, 게시, 배포, 재라이선스 부여 및/또는 판매할 권리와 소프트웨어가 제공된 사람에게 이러한 권한을 부여할 권리가 포함되나 이에 국한되지 않습니다. 단, 다음 조건에 따라야 합니다.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+상기 저작권 고지 및 본 허가 고지는 소프트웨어의 모든 사본 또는 상당 부분에 포함되어야 합니다.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+본 소프트웨어는 상품성, 특정 목적에의 적합성 및 비침해에 대한 보증을 포함하되 이에 국한되지 않는 명시적 또는 묵시적인 어떠한 종류의 보증 없이 "있는 그대로" 제공됩니다. 어떠한 경우에도 저작자 또는 저작권자는 계약, 불법 행위 또는 기타 행위에 따른 소송을 포함하여 본 소프트웨어 또는 본 소프트웨어의 사용 또는 기타 거래와 관련하여 발생하는 모든 청구, 손해 또는 기타 책임에 대해 책임을 지지 않습니다.
+
 
 Minimal Mistakes incorporates icons from [The Noun Project](https://thenounproject.com/) 
 creators Garrett Knoll, Arthur Shlain, and tracy tam.
