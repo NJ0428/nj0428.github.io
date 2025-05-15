@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "분수 계산"
-categories: codingtest
+categories: test
 author_profile: false
 sidebar:
   nav: "docs"
