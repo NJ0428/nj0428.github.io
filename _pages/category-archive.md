@@ -1,7 +1,7 @@
 ---
-title: "posting"
-layout: categories
-permalink: /categories/
+title: "포스팅"
+layout: posting
+permalink: /posting/
 author_profile: true
 sidebar_main: true
 ---
