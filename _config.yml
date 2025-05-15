@@ -17,11 +17,11 @@ minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "n
 # Site Settings
 locale: "ko-KR"
 rtl: # true, false (default) # RTL 언어의 경우 페이지 방향을 오른쪽에서 왼쪽으로 바꿉니다
-title: "NAK노티"
+title: "NAK 노트"
 title_separator: "|"
 subtitle: # 사이트 제목 아래에 마스트헤드에 표시되는 사이트 태그라인
 name: "NAK"
-description: "NAK의 블로그입니다."
+description: "NAK 노트 입니다."
 url: "https://nj0428.github.io"
 baseurl: # 사이트의 하위 경로, e.g. "/blog"
 repository: # GitHub 사용자 이름/레포 이름 예 e.g. "mmistakes/minimal-mistakes"
@@ -114,7 +114,7 @@ analytics:
 author:
   name: "NAK"
   avatar: "/images/photo.png"
-  bio: "NAK의 노티 입니다."
+  bio: "공부하며 쌓아가는 나의 프로그래밍 개발 노트"
   location: "South korea"
   email:
   links:
