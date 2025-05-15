@@ -250,20 +250,20 @@ whitelist:
 #  - <base_path>/my-awesome-category/index.html ~> path: /
 category_archive:
   type: liquid
-  path: /categories/
+  path: /posting/
 tag_archive:
   type: liquid
   path: /tags/
 # https://github.com/jekyll/jekyll-archives
 jekyll-archives:
   enabled:
-    - categories
+    - posting
     - tags
   layouts:
     category: archive-taxonomy
     tag: archive-taxonomy
   permalinks:
-    category: /categories/:name/
+    category: /posting/:name/
     tag: /tags/:name/
 
 # HTML Compression
