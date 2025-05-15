@@ -4,7 +4,7 @@ main:
     url: /posting/
   # - title: "Tag"
   #   url: /tags/
-  - title: "검색"
+  - title: "🔍"
     url: /search/
 
 docs:
