@@ -1,12 +1,10 @@
 ---
 layout: single
-title: "분산처리 시스템 정리"
+title: "분산처리 시스템이란?"
 categories: OperatingSystem
 author_profile: false
 toc: true
 ---
-
-## 분산처리 시스템이란?
 
 **분산처리 시스템(Distributed Processing System)** 은 지리적으로 분산된 여러 대의 컴퓨터(노드)가 **네트워크**로 연결되어 *한 팀처럼* 협업하며 동일 업무를 수행하도록 설계한 구조입니다. CPU·메모리·스토리지 등 자원을 **공동 활용**해 **고가용성**과 **확장성**을 동시에 달성하죠.
 
