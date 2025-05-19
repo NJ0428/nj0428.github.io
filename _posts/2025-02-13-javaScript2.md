@@ -153,7 +153,7 @@ console.log(typeof {name: "Lee"}); // "object"
 
 ------
 
-## 질문(FAQ)
+## 질문 정리
 
 ### Q1. 자바스크립트 기본 타입을 왜 알아야 할까요?
 
